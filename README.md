@@ -13,8 +13,6 @@ This is a read-only photo viewer for Instagram which allows a user to check out 
 - [x] Optional: Add pull-to-refresh for popular stream with SwipeRefreshLayout
 - [x] Optional: User can specify priority for items
 - [x] Optional: Show latest comment for each photo (bonus: show last 2 comments)
-- [x] Optional: Persist the todo app in SQLite instead of using a text file
-- [x] Optional: Display each photo with the same style and proportions as the real Instagram
 
 **_Work-in-progress:_**
 - [ ] Tweaking UI details, custom fonts
