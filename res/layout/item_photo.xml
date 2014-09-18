@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+         android:id="@+id/imageUser"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:paddingTop="25dp"         
+         android:paddingBottom="7dp"         
+         android:src="@drawable/igmtp" />
+     
+       <TextView
+        android:id="@+id/tvuserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="28dp"  
+        android:paddingBottom="4dp"         
+        android:layout_toRightOf="@+id/imageUser"
+        android:textSize="14sp"
+        android:textColor="@color/blueTitle"
+        android:textStyle="bold"
+        android:shadowColor="#00ccff"
+	    android:shadowRadius="1.5"
+	    android:shadowDx="1"
+	    android:shadowDy="1"
+        android:text="@string/default_user_name" />
+
+    <TextView
+        android:id="@+id/tvComment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLikes"
+        android:layout_below="@+id/tvLikes"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_commentt"
+        android:drawablePadding="5dp"
+        android:paddingLeft="3dp"
+        android:textSize="12sp"
+        android:textColor="@color/blueText"
+        android:text="@string/default_comment_text" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvuserName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:paddingTop="23dp"  
+        android:textSize="12sp"
+        android:text="@string/default_time"
+        android:drawableLeft="@drawable/ic_clock_tiny2"
+    	android:drawablePadding="5dp" />
+
+    <TextView
+        android:id="@+id/tvComment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvComment1"
+        android:layout_below="@+id/tvComment1"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_commentt"
+        android:drawablePadding="5dp"
+        android:paddingLeft="3dp"
+        android:textSize="12sp"
+        android:textColor="@color/blueText"
+        android:text="@string/default_comment_text" />
+
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvuserName"
+        android:layout_below="@+id/tvuserName"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/blueCaption"
+        android:text="@string/caption_default_text" />
+
+    <com.AndriodBootCamp.SimpleIGViewer.AspectRatioImageView
+        android:id="@+id/imagePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvCaption"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imagePhoto"
+        android:drawableLeft="@drawable/ic_heart2_tiny"
+        android:drawablePadding="5dp"
+        android:paddingTop="3dp"
+        android:paddingLeft="3dp"
+        android:textSize="12sp"
+        android:text="@string/default_like_text" />
+   
+</RelativeLayout>

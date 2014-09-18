@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleIGViewer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="popular_photo_caption">Popular Photos</string>
+	<string name="caption_default_text">This is a default caption</string>
+	<string name="default_user_name">user name</string>
+	<string name="default_time">time</string>
+	<string name="default_like_text">Likes</string>
+	<string name="default_comment_text">Comment</string>
+</resources>
