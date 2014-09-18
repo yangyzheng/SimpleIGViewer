@@ -27,5 +27,4 @@ Need to play around more with layout combinations
 
 **_Walkthrough of all user stories:_**
 
-![screenshot](https://)
-
+![screenshot](https://raw.githubusercontent.com/yangyzheng/SimpleIGViewer/master/readme/SimpleIGView1.gif)
