@@ -17,9 +17,8 @@ This is a read-only photo viewer for Instagram which allows a user to check out 
 - [x] Optional: Display each photo with the same style and proportions as the real Instagram
 
 **_Work-in-progress:_**
-- [ ] Tweaking UI details
+- [ ] Tweaking UI details, custom fonts
 - [ ] Show more comments button, hide the additional comments if not selected
-- [ ] Fixing Circular ImageView, downloaded libray somehow not working properly
  
 
 **_Notes:_**
@@ -27,4 +26,4 @@ Need to play around more with layout combinations
 
 **_Walkthrough of all user stories:_**
 
-![screenshot](https://raw.githubusercontent.com/yangyzheng/SimpleIGViewer/master/readme/SimpleIGView1.gif)
+![screenshot](https://raw.githubusercontent.com/yangyzheng/SimpleIGViewer/master/readme/SimpleIGView2.gif)
