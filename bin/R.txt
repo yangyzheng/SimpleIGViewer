@@ -1,8 +1,14 @@
-int color blueCaption 0x7f070001
-int color blueText 0x7f070002
-int color blueTitle 0x7f070000
-int dimen activity_horizontal_margin 0x7f060000
-int dimen activity_vertical_margin 0x7f060001
+int attr border 0x7f010000
+int attr border_color 0x7f010002
+int attr border_width 0x7f010001
+int attr circularImageViewStyle 0x7f010004
+int attr shadow 0x7f010003
+int color GrayLight 0x7f060003
+int color blueCaption 0x7f060001
+int color blueText 0x7f060002
+int color blueTitle 0x7f060000
+int dimen activity_horizontal_margin 0x7f070000
+int dimen activity_vertical_margin 0x7f070001
 int drawable ic_clock_tiny 0x7f020000
 int drawable ic_clock_tiny2 0x7f020001
 int drawable ic_commentt 0x7f020002
@@ -52,3 +58,10 @@ int style ptr_last_updated 0x7f040006
 int style ptr_spinner 0x7f040003
 int style ptr_text 0x7f040005
 int style ptr_textwrapper 0x7f040004
+int[] styleable CircularImageView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable CircularImageView_border 0
+int styleable CircularImageView_border_color 2
+int styleable CircularImageView_border_width 1
+int styleable CircularImageView_shadow 3
+int[] styleable Theme { 0x7f010004 }
+int styleable Theme_circularImageViewStyle 0

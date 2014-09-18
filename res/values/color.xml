@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blueTitle">#003399</color>
+    <color name="blueCaption">#0033CC</color>
+    <color name="blueText">#3333CC</color>
+    <color name="GrayLight">#eeeeee</color>
+</resources>

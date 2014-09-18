@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
+ <com.mikhaellopez.circularimageview.CircularImageView
          android:id="@+id/imageUser"
-         android:layout_width="80dp"
-         android:layout_height="80dp"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
          android:layout_alignParentLeft="true"
          android:layout_alignParentTop="true"
          android:paddingTop="25dp"         
          android:paddingBottom="7dp"         
-         android:src="@drawable/igmtp" />
+         android:src="@drawable/igmtp" 
+         app:border="true"
+         app:border_color="@color/GrayLight"
+         app:border_width="1dp"
+         app:shadow="true" />
      
        <TextView
         android:id="@+id/tvuserName"
